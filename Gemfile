@@ -6,5 +6,5 @@ gem "open4", "~> 1.3"
 group :development do
   gem "aws-sdk"
   gem "net-ssh"
-  gem "rbvmomi"
+  gem "rbvmomi", ">= 1.8.0"
 end
